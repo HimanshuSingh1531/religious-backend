@@ -1,0 +1,114 @@
+landmark_id,name,religion,state,city,short_story,reflection_question
+
+1,Kashi Vishwanath Temple,Hindu,Uttar Pradesh,Varanasi,One of the holiest Shiva temples in India.,What does devotion mean in your life?
+2,Tirupati Balaji Temple,Hindu,Andhra Pradesh,Tirupati,One of the richest and most visited temples in the world.,What does surrender mean to you?
+3,Meenakshi Amman Temple,Hindu,Tamil Nadu,Madurai,Famous for its Dravidian architecture and Goddess Meenakshi.,How do beauty and faith connect?
+4,Ramanathaswamy Temple,Hindu,Tamil Nadu,Rameswaram,One of the Char Dham pilgrimage sites.,What does purification symbolize in your life?
+5,Kedarnath Temple,Hindu,Uttarakhand,Kedarnath,One of the twelve Jyotirlingas dedicated to Shiva.,How does faith help you overcome difficulty?
+6,Badrinath Temple,Hindu,Uttarakhand,Badrinath,Sacred Vishnu temple in the Himalayas.,What is true dedication?
+7,Jagannath Temple,Hindu,Odisha,Puri,Famous for Rath Yatra festival.,How do traditions unite people?
+8,Somnath Temple,Hindu,Gujarat,Somnath,Historic Jyotirlinga temple rebuilt many times.,How do you rebuild after loss?
+9,Vaishno Devi Temple,Hindu,Jammu and Kashmir,Katra,Major pilgrimage shrine of Goddess Vaishno Devi.,What gives you inner strength?
+10,Sabarimala Temple,Hindu,Kerala,Sabarimala,Famous Ayyappa temple requiring strict fasting.,How does discipline shape character?
+
+11,Golden Temple,Sikh,Punjab,Amritsar,Spiritual center of Sikhism.,How can equality guide your life?
+12,Hemkund Sahib,Sikh,Uttarakhand,Hemkund,Sacred Sikh pilgrimage site in Himalayas.,What is sacrifice?
+13,Anandpur Sahib,Sikh,Punjab,Anandpur Sahib,Important birthplace of Khalsa.,How does courage build identity?
+14,Hazur Sahib,Sikh,Maharashtra,Nanded,One of five Takhts of Sikhism.,What does leadership mean?
+15,Patna Sahib,Sikh,Bihar,Patna,Birthplace of Guru Gobind Singh.,How does birth influence destiny?
+
+16,Ajmer Sharif Dargah,Islam,Rajasthan,Ajmer,Dargah of Khwaja Moinuddin Chishti.,What is compassion?
+17,Jama Masjid Delhi,Islam,Delhi,Delhi,One of India’s largest mosques.,How does unity strengthen community?
+18,Haji Ali Dargah,Islam,Maharashtra,Mumbai,Famous island mosque.,What does faith mean during isolation?
+19,Charminar Mosque,Islam,Telangana,Hyderabad,Iconic monument with mosque.,How do heritage and belief connect?
+20,Taj-ul-Masajid,Islam,Madhya Pradesh,Bhopal,One of Asia’s largest mosques.,How does prayer calm the mind?
+
+21,Basilica of Bom Jesus,Christian,Goa,Old Goa,Houses remains of St Francis Xavier.,How does service inspire you?
+22,Velankanni Church,Christian,Tamil Nadu,Velankanni,Famous Marian pilgrimage site.,What is healing?
+23,St Thomas Mount,Christian,Tamil Nadu,Chennai,Associated with Apostle Thomas.,What is sacrifice?
+24,Medak Cathedral,Christian,Telangana,Medak,One of largest churches in Asia.,How does light symbolize hope?
+25,St Francis Church Kochi,Christian,Kerala,Kochi,Oldest European church in India.,How does history shape faith?
+
+26,Mahabodhi Temple,Buddhist,Bihar,Bodh Gaya,Where Buddha attained enlightenment.,What is awakening?
+27,Sanchi Stupa,Buddhist,Madhya Pradesh,Sanchi,Ancient Buddhist monument.,What is simplicity?
+28,Dhamek Stupa,Buddhist,Uttar Pradesh,Sarnath,Where Buddha gave first sermon.,How does knowledge spread?
+29,Tawang Monastery,Buddhist,Arunachal Pradesh,Tawang,Largest monastery in India.,What is peace?
+30,Rumtek Monastery,Buddhist,Sikkim,Gangtok,Important Tibetan monastery.,What is inner balance?
+
+31,Shatrunjaya Jain Temple,Jain,Gujarat,Palitana,Sacred Jain pilgrimage hill.,What is non-violence?
+32,Dilwara Temples,Jain,Rajasthan,Mount Abu,Famous marble Jain temples.,How does purity reflect in actions?
+33,Ranakpur Jain Temple,Jain,Rajasthan,Ranakpur,Intricate marble architecture.,What is patience?
+34,Shravanabelagola,Jain,Karnataka,Shravanabelagola,Famous Bahubali statue.,What is renunciation?
+35,Gomateshwara Temple,Jain,Karnataka,Karkala,Sacred Jain site.,How does humility help growth?
+
+36,Konark Sun Temple,Hindu,Odisha,Konark,UNESCO heritage sun temple.,How does time guide life?
+37,Akshardham Temple,Hindu,Delhi,Delhi,Modern Hindu cultural complex.,How does culture preserve faith?
+38,Brihadeeswarar Temple,Hindu,Tamil Nadu,Thanjavur,Chola-era Shiva temple.,What is greatness?
+39,Chidambaram Temple,Hindu,Tamil Nadu,Chidambaram,Famous for Nataraja.,What is cosmic dance in life?
+40,Ujjain Mahakaleshwar,Hindu,Madhya Pradesh,Ujjain,Jyotirlinga temple.,What is time’s power?
+
+41,Dwarkadhish Temple,Hindu,Gujarat,Dwarka,Sacred temple dedicated to Lord Krishna.,What does divine leadership mean to you?
+42,Lingaraj Temple,Hindu,Odisha,Bhubaneswar,Ancient temple dedicated to Harihara.,How does unity exist within diversity?
+43,Kamakhya Temple,Hindu,Assam,Guwahati,Famous Shakti Peetha temple.,What is feminine energy in life?
+44,Ekambareswarar Temple,Hindu,Tamil Nadu,Kanchipuram,Pancha Bhoota temple representing Earth.,How does nature connect with spirituality?
+45,Guruvayur Temple,Hindu,Kerala,Guruvayur,Important Krishna temple of Kerala.,What is innocence in devotion?
+46,Adi Kumbeswarar Temple,Hindu,Tamil Nadu,Kumbakonam,Associated with cosmic creation legend.,How do beginnings shape destiny?
+47,Virupaksha Temple,Hindu,Karnataka,Hampi,Historic temple from Vijayanagara Empire.,How does history influence faith?
+48,Parli Vaijnath Temple,Hindu,Maharashtra,Parli,One of the Jyotirlingas.,What is healing power?
+49,Trimbakeshwar Temple,Hindu,Maharashtra,Nashik,Sacred Jyotirlinga near Godavari origin.,What is purity?
+50,Bhimashankar Temple,Hindu,Maharashtra,Pune,Jyotirlinga located in Sahyadri hills.,How does silence deepen prayer?
+
+51,ISKCON Temple Bangalore,Hindu,Karnataka,Bangalore,Modern Krishna temple complex.,How can devotion inspire youth?
+52,Dakshineswar Kali Temple,Hindu,West Bengal,Kolkata,Famous temple associated with Ramakrishna.,What is surrender to the Divine?
+53,Kalighat Temple,Hindu,West Bengal,Kolkata,One of the Shakti Peethas.,How does strength manifest within you?
+54,Banke Bihari Temple,Hindu,Uttar Pradesh,Vrindavan,Important Krishna temple.,How does love transform life?
+55,Siddhivinayak Temple,Hindu,Maharashtra,Mumbai,Famous Ganesha temple.,How do you remove obstacles?
+56,Shirdi Sai Baba Temple,Hindu,Maharashtra,Shirdi,Shrine of Sai Baba.,What is faith beyond religion?
+57,Omkareshwar Temple,Hindu,Madhya Pradesh,Omkareshwar,Jyotirlinga island temple.,How does balance guide life?
+58,Jageshwar Temple,Hindu,Uttarakhand,Almora,Cluster of ancient Shiva temples.,How does solitude help growth?
+59,Baidyanath Dham,Hindu,Jharkhand,Deoghar,Sacred Jyotirlinga shrine.,What is dedication?
+60,Gangotri Temple,Hindu,Uttarakhand,Gangotri,Source temple of River Ganga.,What is purity of flow?
+
+61,Yamunotri Temple,Hindu,Uttarakhand,Yamunotri,Origin temple of River Yamuna.,What is grace?
+62,Amarnath Cave Temple,Hindu,Jammu and Kashmir,Amarnath,Sacred ice Shiva Lingam cave.,What is perseverance?
+63,Kukke Subramanya Temple,Hindu,Karnataka,Subramanya,Temple dedicated to Lord Murugan.,How does courage defeat fear?
+64,Palani Murugan Temple,Hindu,Tamil Nadu,Palani,One of six abodes of Murugan.,What is renunciation?
+65,Thillai Kali Temple,Hindu,Tamil Nadu,Chidambaram,Temple dedicated to Goddess Kali.,How does power coexist with compassion?
+66,Nellaiappar Temple,Hindu,Tamil Nadu,Tirunelveli,Famous Shiva temple.,How does rhythm influence devotion?
+67,Padmanabhaswamy Temple,Hindu,Kerala,Thiruvananthapuram,Historic Vishnu temple.,What is inner wealth?
+68,Attukal Bhagavathy Temple,Hindu,Kerala,Thiruvananthapuram,Famous women-led Pongala festival.,How does unity empower women?
+69,Chottanikkara Temple,Hindu,Kerala,Kochi,Known for healing rituals.,How does faith heal?
+70,Mannarasala Temple,Hindu,Kerala,Haripad,Famous serpent temple.,What is respect for nature?
+
+71,Alandi Temple,Hindu,Maharashtra,Alandi,Shrine of Sant Dnyaneshwar.,How does wisdom inspire you?
+72,Pandharpur Vitthal Temple,Hindu,Maharashtra,Pandharpur,Major Varkari pilgrimage center.,What is devotion in action?
+73,Tulja Bhavani Temple,Hindu,Maharashtra,Tuljapur,Important Shakti shrine.,How does courage protect righteousness?
+74,Kolhapur Mahalakshmi Temple,Hindu,Maharashtra,Kolhapur,Sacred Lakshmi temple.,What is prosperity beyond wealth?
+75,Tarapith Temple,Hindu,West Bengal,Tarapith,Powerful tantric Shakti site.,How does transformation occur?
+76,Rajarajeshwari Temple,Hindu,Karnataka,Bangalore,Temple of Divine Mother.,How does grace support life?
+77,Mookambika Temple,Hindu,Karnataka,Kollur,Sacred Saraswati shrine.,How does knowledge guide success?
+78,Srisailam Temple,Hindu,Andhra Pradesh,Srisailam,Jyotirlinga and Shakti Peetha.,How do strength and compassion balance?
+79,Lepakshi Temple,Hindu,Andhra Pradesh,Lepakshi,Famous for hanging pillar.,What is architectural devotion?
+80,Belur Chennakesava Temple,Hindu,Karnataka,Belur,Hoysala architectural masterpiece.,How does art express faith?
+
+81,Halebidu Hoysaleswara Temple,Hindu,Karnataka,Halebidu,Famous Hoysala Shiva temple.,How does craftsmanship reflect devotion?
+82,Pattadakal Temples,Hindu,Karnataka,Pattadakal,UNESCO heritage temple complex.,How does heritage preserve belief?
+83,Badami Cave Temples,Hindu,Karnataka,Badami,Ancient rock-cut cave temples.,How does meditation deepen awareness?
+84,Aihole Durga Temple,Hindu,Karnataka,Aihole,Early Chalukya architecture.,How does innovation serve faith?
+85,Someshwara Temple Gujarat,Hindu,Gujarat,Ahmedabad,Historic Shiva temple.,What is timeless faith?
+86,Modhera Sun Temple,Hindu,Gujarat,Modhera,Temple dedicated to Sun God.,How does light guide truth?
+87,Chennakesava Temple Somanathapura,Hindu,Karnataka,Somanathapura,Hoysala Vishnu temple.,How does detail reflect perfection?
+88,Martand Sun Temple,Hindu,Jammu and Kashmir,Anantnag,Ancient sun temple ruins.,How does resilience survive time?
+89,Baijnath Temple,Hindu,Himachal Pradesh,Baijnath,Historic Shiva temple.,What is mountain-like strength?
+90,Namdroling Monastery,Buddhist,Karnataka,Bylakuppe,Large Tibetan monastery.,How does discipline build peace?
+
+91,Takht Sri Damdama Sahib,Sikh,Punjab,Talwandi Sabo,One of five Takhts.,How does knowledge empower leadership?
+92,Fatehpur Sikri Mosque,Islam,Uttar Pradesh,Fatehpur Sikri,Historic Mughal mosque.,How does architecture reflect faith?
+93,Nizamuddin Dargah,Islam,Delhi,Delhi,Shrine of Sufi saint Nizamuddin Auliya.,What is unconditional love?
+94,Mount Mary Church,Christian,Maharashtra,Mumbai,Famous basilica in Mumbai.,How does hope strengthen life?
+95,Sacred Heart Cathedral Delhi,Christian,Delhi,Delhi,Major Catholic cathedral.,How does prayer create unity?
+96,Bara Imambara,Islam,Uttar Pradesh,Lucknow,Famous Shia pilgrimage site.,How does remembrance preserve identity?
+97,Hazratbal Shrine,Islam,Jammu and Kashmir,Srinagar,Sacred Islamic shrine.,How does reverence inspire humility?
+98,Buddha Park Ravangla,Buddhist,Sikkim,Ravangla,Giant Buddha statue park.,How does serenity shape thought?
+99,Imphal Mahabali Temple,Hindu,Manipur,Imphal,Important Hanuman temple.,How does loyalty build character?
+100,Tripura Sundari Temple,Hindu,Tripura,Udaipur,One of Shakti Peethas.,How does divine love transform life?

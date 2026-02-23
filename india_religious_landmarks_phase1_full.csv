@@ -1,0 +1,100 @@
+name,religion,state,city,latitude,longitude
+Kashi Vishwanath Temple,Hindu,Uttar Pradesh,Varanasi,25.3109,83.0107
+Tirumala Venkateswara Temple,Hindu,Andhra Pradesh,Tirumala,13.6833,79.3474
+Meenakshi Amman Temple,Hindu,Tamil Nadu,Madurai,9.9195,78.1193
+Badrinath Temple,Hindu,Uttarakhand,Badrinath,30.7448,79.4911
+Kedarnath Temple,Hindu,Uttarakhand,Kedarnath,30.7352,79.0669
+Jagannath Temple,Hindu,Odisha,Puri,19.8135,85.8312
+Ramanathaswamy Temple,Hindu,Tamil Nadu,Rameswaram,9.2881,79.3174
+Somnath Temple,Hindu,Gujarat,Somnath,20.898,70.403
+Mahakaleshwar Temple,Hindu,Madhya Pradesh,Ujjain,23.1793,75.7849
+Vaishno Devi Temple,Hindu,Jammu & Kashmir,Katra,33.0308,74.949
+Sabarimala Temple,Hindu,Kerala,Pathanamthitta,9.438,77.2043
+Dwarkadhish Temple,Hindu,Gujarat,Dwarka,22.242,68.9689
+Akshardham Temple,Hindu,Delhi,Delhi,28.6127,77.2773
+Konark Sun Temple,Hindu,Odisha,Konark,19.8876,86.0945
+Kamakhya Temple,Hindu,Assam,Guwahati,26.1667,91.7052
+Shirdi Sai Baba Temple,Hindu,Maharashtra,Shirdi,19.76,74.477
+Padmanabhaswamy Temple,Hindu,Kerala,Thiruvananthapuram,8.4828,76.9436
+Lingaraj Temple,Hindu,Odisha,Bhubaneswar,20.2434,85.839
+Brihadeeswarar Temple,Hindu,Tamil Nadu,Thanjavur,10.782,79.131
+Ayodhya Ram Mandir,Hindu,Uttar Pradesh,Ayodhya,26.795,82.1992
+Trimbakeshwar Temple,Hindu,Maharashtra,Nashik,20.0069,73.4984
+Omkareshwar Temple,Hindu,Madhya Pradesh,Omkareshwar,22.25,76.21
+Bhimashankar Temple,Hindu,Maharashtra,Pune,19.2328,73.5398
+Guruvayur Temple,Hindu,Kerala,Guruvayur,10.5941,76.0405
+Udupi Sri Krishna Temple,Hindu,Karnataka,Udupi,13.3409,74.7421
+Kalighat Temple,Hindu,West Bengal,Kolkata,22.5019,88.3146
+Banke Bihari Temple,Hindu,Uttar Pradesh,Vrindavan,27.5726,77.696
+Har Ki Pauri,Hindu,Uttarakhand,Haridwar,29.9457,78.1642
+Chidambaram Nataraja Temple,Hindu,Tamil Nadu,Chidambaram,11.3992,79.6935
+Virupaksha Temple,Hindu,Karnataka,Hampi,15.335,76.462
+Sringeri Sharada Peetham,Hindu,Karnataka,Sringeri,13.65,75.27
+Kollur Mookambika Temple,Hindu,Karnataka,Kollur,14.1353,74.7548
+Chottanikkara Temple,Hindu,Kerala,Chottanikkara,9.9227,76.3508
+Annavaram Temple,Hindu,Andhra Pradesh,Annavaram,16.9631,81.7762
+Parvati Temple,Hindu,Maharashtra,Pune,18.5196,73.8553
+Mangaladevi Temple,Hindu,Karnataka,Mangalore,12.9128,74.8421
+ISKCON Temple Bangalore,Hindu,Karnataka,Bangalore,12.9716,77.5946
+Rajarani Temple,Hindu,Odisha,Bhubaneswar,20.2383,85.8245
+Kanchi Kailasanathar Temple,Hindu,Tamil Nadu,Kanchipuram,12.83,79.7035
+Ajmer Sharif Dargah,Muslim,Rajasthan,Ajmer,26.4772,74.6394
+Jama Masjid,Muslim,Delhi,Delhi,28.65,77.2333
+Haji Ali Dargah,Muslim,Maharashtra,Mumbai,18.9822,72.8065
+Charminar,Muslim,Telangana,Hyderabad,17.3616,78.4747
+Hazrat Nizamuddin Dargah,Muslim,Delhi,Delhi,28.5917,77.25
+Mecca Masjid,Muslim,Telangana,Hyderabad,17.371,78.476
+Taj-ul-Masajid,Muslim,Madhya Pradesh,Bhopal,23.2581,77.4126
+Dargah of Salim Chishti,Muslim,Rajasthan,Fatehpur Sikri,27.093,77.66
+Tipu Sultan Mosque,Muslim,Karnataka,Bangalore,12.9716,77.5939
+Makkah Masjid,Muslim,Telangana,Hyderabad,17.371,78.474
+Raza Mosque,Muslim,Uttar Pradesh,Rampur,28.8046,79.0252
+Bara Imambara,Muslim,Uttar Pradesh,Lucknow,26.847,80.947
+Sunehri Masjid,Muslim,Uttar Pradesh,Lucknow,26.848,80.948
+Asafi Mosque,Muslim,Uttar Pradesh,Lucknow,26.8483,80.949
+Nagore Dargah,Muslim,Tamil Nadu,Nagore,11.258,79.8117
+Golden Temple,Sikh,Punjab,Amritsar,31.62,74.8765
+Akal Takht,Sikh,Punjab,Amritsar,31.6203,74.877
+Anandpur Sahib,Sikh,Punjab,Anandpur Sahib,31.218,76.5028
+Takht Sri Patna Sahib,Sikh,Bihar,Patna,25.62,85.12
+Takht Sri Hazur Sahib,Sikh,Maharashtra,Nanded,19.15,77.3
+Hemkund Sahib,Sikh,Uttarakhand,Chamoli,30.947,79.566
+Gurudwara Bangla Sahib,Sikh,Delhi,Delhi,28.635,77.23
+Gurudwara Sis Ganj Sahib,Sikh,Delhi,Delhi,28.6562,77.23
+Gurudwara Manikaran Sahib,Sikh,Himachal Pradesh,Manikaran,32.02,77.34
+Gurudwara Sri Tarn Taran Sahib,Sikh,Punjab,Tarn Taran,31.45,74.92
+Basilica of Bom Jesus,Christian,Goa,Old Goa,15.4989,73.8352
+Velankanni Church,Christian,Tamil Nadu,Velankanni,10.6789,78.69
+St. Thomas Cathedral Basilica,Christian,Kerala,Chennai,13.08,80.27
+Santhome Cathedral Basilica,Christian,Tamil Nadu,Chennai,13.048,80.274
+Se Cathedral,Christian,Goa,Old Goa,15.499,73.8357
+St. Francis Church,Christian,Goa,Old Goa,15.4985,73.8351
+Sacred Heart Cathedral,Christian,Kerala,Kochi,9.9667,76.2833
+Medak Cathedral,Christian,Telangana,Medak,17.136,78.315
+St. Paul’s Cathedral,Christian,Kolkata,Kolkata,22.5845,88.346
+St. Mary’s Basilica,Christian,Karnataka,Bangalore,12.9833,77.5833
+Infant Jesus Shrine,Christian,Kerala,Bangalore,12.95,77.593
+Our Lady of the Rosary Church,Christian,Goa,Old Goa,15.4995,73.8359
+Malayattoor Church,Christian,Kerala,Malayattoor,10.15,76.35
+St. Alphonsa Shrine,Christian,Kerala,Kochi,9.993,76.26
+St. Michael’s Cathedral,Christian,Kolkata,Kolkata,22.567,88.345
+Mahabodhi Temple,Buddhist,Bihar,Bodh Gaya,24.6955,84.9919
+Sarnath,Buddhist,Uttar Pradesh,Varanasi,25.3667,83.0167
+Rumtek Monastery,Buddhist,Sikkim,Gangtok,27.3383,88.6065
+Tawang Monastery,Buddhist,Arunachal Pradesh,Tawang,27.5866,91.8641
+Namdroling Monastery,Buddhist,Karnataka,Bylakuppe,12.5739,76.1481
+Hemis Monastery,Buddhist,Ladakh,Hemis,34.1593,77.58
+Thiksey Monastery,Buddhist,Ladakh,Thiksey,34.1676,77.5847
+Dhamek Stupa,Buddhist,Uttar Pradesh,Sarnath,25.3667,83.0183
+Nalanda Mahavihara,Buddhist,Bihar,Nalanda,25.1352,85.443
+Ajanta Caves,Buddhist,Maharashtra,Aurangabad,20.552,75.7033
+Palitana Temples,Jain,Gujarat,Palitana,21.914,71.8314
+Shravanabelagola,Jain,Karnataka,Shravanabelagola,12.858,76.467
+Dilwara Temples,Jain,Rajasthan,Mount Abu,24.5925,72.7114
+Ranakpur Jain Temple,Jain,Rajasthan,Ranakpur,25.1911,73.4
+Shikharji,Jain,Jharkhand,Giridih,24.183,86.633
+Girnar Temples,Jain,Gujarat,Junagadh,21.5235,70.4597
+Sonagiri Jain Temples,Jain,Madhya Pradesh,Sagar,24.467,78.733
+Kundalpur,Jain,Bihar,Nalanda,25.1692,85.411
+Khajuraho Jain Temples,Jain,Madhya Pradesh,Khajuraho,24.831,79.9225
+Moodabidri Jain Temple,Jain,Karnataka,Moodabidri,13.0486,74.986

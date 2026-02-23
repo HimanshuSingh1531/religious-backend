@@ -1,0 +1,261 @@
+name,meal,type,religion,calories,protein_g,carbs_g,fat_g
+Idli,Breakfast,veg,All,591,23.8,67.3,15.0
+Idli,Breakfast,veg,All,435,28.2,54.8,12.1
+Idli,Breakfast,veg,All,332,16.6,35.8,9.0
+Idli,Breakfast,veg,All,286,21.2,37.6,9.1
+Idli,Breakfast,veg,All,226,12.1,26.8,6.0
+Dosa,Breakfast,veg,All,585,21.6,82.4,22.1
+Dosa,Breakfast,veg,All,266,12.7,32.6,7.5
+Dosa,Breakfast,veg,All,132,6.1,13.7,3.8
+Dosa,Breakfast,veg,All,119,8.4,13.3,4.4
+Dosa,Breakfast,veg,All,520,38.1,66.4,15.0
+Upma,Breakfast,veg,All,284,19.6,33.2,10.2
+Upma,Breakfast,veg,All,364,14.2,40.8,12.7
+Upma,Breakfast,veg,All,214,9.9,24.4,7.4
+Upma,Breakfast,veg,All,203,5.2,23.3,6.5
+Upma,Breakfast,veg,All,311,17.9,40.3,7.2
+Pongal,Breakfast,veg,All,595,17.5,69.5,23.0
+Pongal,Breakfast,veg,All,546,16.2,63.9,16.2
+Pongal,Breakfast,veg,All,132,6.1,18.6,5.0
+Pongal,Breakfast,veg,All,216,6.5,31.5,5.0
+Pongal,Breakfast,veg,All,314,15.3,40.6,10.7
+Poha,Breakfast,veg,All,465,18.9,49.8,12.1
+Poha,Breakfast,veg,All,138,10.2,19.2,4.2
+Poha,Breakfast,veg,All,198,5.8,20.0,6.4
+Poha,Breakfast,veg,All,420,11.6,54.4,15.7
+Poha,Breakfast,veg,All,593,29.2,84.0,17.9
+Oats Porridge,Breakfast,veg,All,389,26.2,50.9,12.9
+Oats Porridge,Breakfast,veg,All,104,7.5,11.6,3.8
+Oats Porridge,Breakfast,veg,All,426,31.3,44.8,12.7
+Oats Porridge,Breakfast,veg,All,543,21.2,62.2,18.4
+Oats Porridge,Breakfast,veg,All,224,9.2,28.2,8.7
+Vegetable Sandwich,Breakfast,veg,All,308,21.7,41.5,8.3
+Vegetable Sandwich,Breakfast,veg,All,496,24.5,54.1,13.8
+Vegetable Sandwich,Breakfast,veg,All,188,9.2,18.9,5.9
+Vegetable Sandwich,Breakfast,veg,All,592,40.2,78.4,17.8
+Vegetable Sandwich,Breakfast,veg,All,311,10.3,46.3,11.6
+Paratha,Breakfast,veg,All,428,27.1,60.6,12.6
+Paratha,Breakfast,veg,All,283,9.3,32.2,6.3
+Paratha,Breakfast,veg,All,448,16.7,66.8,12.0
+Paratha,Breakfast,veg,All,501,29.9,60.1,17.5
+Paratha,Breakfast,veg,All,433,27.0,45.1,12.9
+Fruit Bowl,Breakfast,veg,All,423,26.5,47.7,9.9
+Fruit Bowl,Breakfast,veg,All,286,15.4,30.8,10.0
+Fruit Bowl,Breakfast,veg,All,152,10.1,15.5,5.2
+Fruit Bowl,Breakfast,veg,All,469,19.0,59.5,14.0
+Fruit Bowl,Breakfast,veg,All,415,20.8,48.3,14.4
+Cornflakes with Milk,Breakfast,veg,All,467,32.0,62.6,11.3
+Cornflakes with Milk,Breakfast,veg,All,283,19.0,31.7,10.3
+Cornflakes with Milk,Breakfast,veg,All,351,25.2,36.5,10.7
+Cornflakes with Milk,Breakfast,veg,All,306,13.0,31.2,10.1
+Cornflakes with Milk,Breakfast,veg,All,347,17.4,47.3,9.9
+Egg Omelette,Breakfast,non-veg,All,346,13.3,43.9,8.7
+Egg Omelette,Breakfast,non-veg,All,504,23.6,56.4,15.7
+Egg Omelette,Breakfast,non-veg,All,316,17.1,40.2,10.7
+Egg Omelette,Breakfast,non-veg,All,331,14.0,44.3,10.5
+Egg Omelette,Breakfast,non-veg,All,319,19.0,32.9,10.3
+Boiled Eggs,Breakfast,non-veg,All,322,20.4,35.0,7.2
+Boiled Eggs,Breakfast,non-veg,All,150,7.4,18.9,5.1
+Boiled Eggs,Breakfast,non-veg,All,434,31.3,61.9,14.9
+Boiled Eggs,Breakfast,non-veg,All,555,31.4,78.9,15.1
+Boiled Eggs,Breakfast,non-veg,All,331,13.4,44.4,11.4
+Chicken Sandwich,Breakfast,non-veg,All,342,9.8,41.0,12.0
+Chicken Sandwich,Breakfast,non-veg,All,556,27.1,56.3,20.1
+Chicken Sandwich,Breakfast,non-veg,All,573,31.7,62.9,14.9
+Chicken Sandwich,Breakfast,non-veg,All,295,21.2,31.3,9.0
+Chicken Sandwich,Breakfast,non-veg,All,407,12.6,55.4,14.9
+Scrambled Eggs,Breakfast,non-veg,All,275,14.6,33.7,8.3
+Scrambled Eggs,Breakfast,non-veg,All,273,16.4,34.9,9.8
+Scrambled Eggs,Breakfast,non-veg,All,588,17.0,60.6,15.0
+Scrambled Eggs,Breakfast,non-veg,All,164,7.2,18.8,5.8
+Scrambled Eggs,Breakfast,non-veg,All,212,15.8,27.4,6.6
+Chicken Sausage,Breakfast,non-veg,All,573,34.4,65.6,13.0
+Chicken Sausage,Breakfast,non-veg,All,320,19.8,41.8,8.3
+Chicken Sausage,Breakfast,non-veg,All,324,20.5,38.9,7.9
+Chicken Sausage,Breakfast,non-veg,All,473,28.8,51.0,12.1
+Chicken Sausage,Breakfast,non-veg,All,238,16.2,30.4,8.0
+Rice & Sambar,Lunch,veg,All,538,32.3,76.6,12.3
+Rice & Sambar,Lunch,veg,All,147,7.2,16.4,5.6
+Rice & Sambar,Lunch,veg,All,306,19.8,31.7,10.1
+Rice & Sambar,Lunch,veg,All,103,4.0,13.6,2.4
+Rice & Sambar,Lunch,veg,All,234,17.2,26.9,5.4
+Curd Rice,Lunch,veg,All,405,26.8,59.3,12.2
+Curd Rice,Lunch,veg,All,305,22.6,38.2,11.5
+Curd Rice,Lunch,veg,All,450,14.4,65.9,14.2
+Curd Rice,Lunch,veg,All,535,28.6,79.4,14.0
+Curd Rice,Lunch,veg,All,578,43.1,82.6,18.8
+Veg Biryani,Lunch,veg,All,281,14.4,39.5,8.4
+Veg Biryani,Lunch,veg,All,296,15.0,33.8,9.7
+Veg Biryani,Lunch,veg,All,113,3.0,13.0,3.3
+Veg Biryani,Lunch,veg,All,329,10.3,41.2,8.7
+Veg Biryani,Lunch,veg,All,388,27.1,41.1,14.4
+Chapati & Dal,Lunch,veg,All,431,32.1,46.2,16.2
+Chapati & Dal,Lunch,veg,All,234,8.9,31.6,7.6
+Chapati & Dal,Lunch,veg,All,492,27.5,49.8,13.2
+Chapati & Dal,Lunch,veg,All,463,15.6,58.6,13.3
+Chapati & Dal,Lunch,veg,All,401,13.9,52.2,11.0
+Vegetable Pulao,Lunch,veg,All,148,10.3,14.9,5.1
+Vegetable Pulao,Lunch,veg,All,157,6.6,23.1,4.4
+Vegetable Pulao,Lunch,veg,All,312,8.9,39.2,7.3
+Vegetable Pulao,Lunch,veg,All,585,28.3,86.1,17.8
+Vegetable Pulao,Lunch,veg,All,129,9.7,12.9,3.7
+Rajma Rice,Lunch,veg,All,551,41.3,59.9,19.6
+Rajma Rice,Lunch,veg,All,224,7.6,25.1,6.8
+Rajma Rice,Lunch,veg,All,123,7.3,12.7,4.2
+Rajma Rice,Lunch,veg,All,169,9.0,18.6,4.9
+Rajma Rice,Lunch,veg,All,245,14.2,28.9,5.6
+Paneer Curry,Lunch,veg,All,466,21.9,51.5,11.5
+Paneer Curry,Lunch,veg,All,556,27.1,67.7,18.2
+Paneer Curry,Lunch,veg,All,391,26.7,54.3,12.8
+Paneer Curry,Lunch,veg,All,105,4.0,14.5,3.9
+Paneer Curry,Lunch,veg,All,385,19.6,49.5,14.9
+Lemon Rice,Lunch,veg,All,362,10.4,51.7,8.3
+Lemon Rice,Lunch,veg,All,430,19.1,55.8,11.9
+Lemon Rice,Lunch,veg,All,514,16.5,61.6,14.9
+Lemon Rice,Lunch,veg,All,203,14.1,27.9,4.6
+Lemon Rice,Lunch,veg,All,300,10.7,42.9,9.2
+Chicken Biryani,Lunch,non-veg,Muslim,437,23.1,60.7,9.7
+Chicken Biryani,Lunch,non-veg,Muslim,143,7.7,14.9,5.0
+Chicken Biryani,Lunch,non-veg,Muslim,547,18.3,58.7,13.7
+Chicken Biryani,Lunch,non-veg,Muslim,165,8.3,24.3,5.9
+Chicken Biryani,Lunch,non-veg,Muslim,295,11.8,39.1,9.1
+Mutton Curry,Lunch,non-veg,Muslim,257,8.3,30.0,6.5
+Mutton Curry,Lunch,non-veg,Muslim,474,30.4,49.1,13.1
+Mutton Curry,Lunch,non-veg,Muslim,449,30.2,48.5,16.0
+Mutton Curry,Lunch,non-veg,Muslim,416,13.2,51.2,10.7
+Mutton Curry,Lunch,non-veg,Muslim,265,12.7,37.1,7.2
+Fish Curry,Lunch,non-veg,Muslim,329,22.5,37.7,9.5
+Fish Curry,Lunch,non-veg,Muslim,560,38.1,63.5,13.3
+Fish Curry,Lunch,non-veg,Muslim,201,5.6,28.7,5.2
+Fish Curry,Lunch,non-veg,Muslim,121,5.1,17.8,4.6
+Fish Curry,Lunch,non-veg,Muslim,383,12.2,42.4,10.4
+Grilled Chicken,Lunch,non-veg,Muslim,130,5.5,16.4,3.4
+Grilled Chicken,Lunch,non-veg,Muslim,578,41.2,67.0,13.9
+Grilled Chicken,Lunch,non-veg,Muslim,150,9.1,18.4,3.9
+Grilled Chicken,Lunch,non-veg,Muslim,307,12.2,36.7,9.4
+Grilled Chicken,Lunch,non-veg,Muslim,203,5.5,23.1,6.3
+Egg Curry,Lunch,non-veg,Muslim,208,10.2,26.0,5.3
+Egg Curry,Lunch,non-veg,Muslim,311,19.5,31.3,8.0
+Egg Curry,Lunch,non-veg,Muslim,535,17.5,66.3,20.3
+Egg Curry,Lunch,non-veg,Muslim,388,16.4,55.8,12.1
+Egg Curry,Lunch,non-veg,Muslim,311,8.7,37.2,8.3
+Chicken Biryani,Lunch,non-veg,Christian,393,27.0,52.2,13.0
+Chicken Biryani,Lunch,non-veg,Christian,423,14.5,43.4,13.7
+Chicken Biryani,Lunch,non-veg,Christian,549,35.7,73.3,16.7
+Chicken Biryani,Lunch,non-veg,Christian,547,28.3,58.9,12.7
+Chicken Biryani,Lunch,non-veg,Christian,543,38.9,60.6,20.0
+Mutton Curry,Lunch,non-veg,Christian,179,9.6,21.2,6.6
+Mutton Curry,Lunch,non-veg,Christian,528,16.5,72.4,17.6
+Mutton Curry,Lunch,non-veg,Christian,147,3.9,15.9,4.5
+Mutton Curry,Lunch,non-veg,Christian,434,26.5,59.3,13.2
+Mutton Curry,Lunch,non-veg,Christian,432,20.1,48.9,12.0
+Fish Curry,Lunch,non-veg,Christian,249,13.7,33.6,7.6
+Fish Curry,Lunch,non-veg,Christian,571,15.5,79.3,16.2
+Fish Curry,Lunch,non-veg,Christian,533,14.9,70.0,14.5
+Fish Curry,Lunch,non-veg,Christian,561,30.4,63.6,20.2
+Fish Curry,Lunch,non-veg,Christian,138,8.0,15.2,4.4
+Grilled Chicken,Lunch,non-veg,Christian,191,7.3,21.0,6.1
+Grilled Chicken,Lunch,non-veg,Christian,133,5.5,19.5,4.4
+Grilled Chicken,Lunch,non-veg,Christian,342,17.1,47.3,12.2
+Grilled Chicken,Lunch,non-veg,Christian,275,7.3,33.8,9.7
+Grilled Chicken,Lunch,non-veg,Christian,340,14.6,43.7,9.2
+Egg Curry,Lunch,non-veg,Christian,189,14.1,28.2,5.5
+Egg Curry,Lunch,non-veg,Christian,250,7.2,37.5,7.5
+Egg Curry,Lunch,non-veg,Christian,348,20.6,42.2,8.9
+Egg Curry,Lunch,non-veg,Christian,461,11.9,65.0,13.9
+Egg Curry,Lunch,non-veg,Christian,370,11.6,49.5,8.5
+Fruits,Snack,veg,All,142,4.3,18.7,4.6
+Fruits,Snack,veg,All,487,21.7,60.7,17.1
+Fruits,Snack,veg,All,435,25.5,47.7,16.8
+Fruits,Snack,veg,All,498,19.5,56.8,17.0
+Fruits,Snack,veg,All,228,11.2,33.4,6.3
+Nuts,Snack,veg,All,237,11.2,29.6,8.9
+Nuts,Snack,veg,All,576,35.3,58.9,22.4
+Nuts,Snack,veg,All,235,7.6,26.0,8.2
+Nuts,Snack,veg,All,480,16.0,65.5,14.9
+Nuts,Snack,veg,All,405,27.2,55.3,14.7
+Sprouts Salad,Snack,veg,All,201,7.8,26.9,5.4
+Sprouts Salad,Snack,veg,All,527,29.8,63.6,13.2
+Sprouts Salad,Snack,veg,All,418,26.0,58.7,11.2
+Sprouts Salad,Snack,veg,All,283,11.5,36.2,6.6
+Sprouts Salad,Snack,veg,All,550,27.2,55.4,13.4
+Tea & Biscuits,Snack,veg,All,415,22.6,52.5,13.8
+Tea & Biscuits,Snack,veg,All,371,21.8,38.3,9.3
+Tea & Biscuits,Snack,veg,All,310,19.6,35.3,12.0
+Tea & Biscuits,Snack,veg,All,176,11.2,24.8,5.1
+Tea & Biscuits,Snack,veg,All,261,11.2,34.8,6.6
+Roasted Channa,Snack,veg,All,317,18.7,39.2,9.5
+Roasted Channa,Snack,veg,All,170,9.4,22.8,3.9
+Roasted Channa,Snack,veg,All,509,27.9,70.5,11.5
+Roasted Channa,Snack,veg,All,176,6.8,25.9,5.8
+Roasted Channa,Snack,veg,All,537,27.7,61.5,14.6
+Peanut Salad,Snack,veg,All,336,16.5,47.7,10.5
+Peanut Salad,Snack,veg,All,288,13.5,35.2,10.2
+Peanut Salad,Snack,veg,All,327,22.6,44.4,9.1
+Peanut Salad,Snack,veg,All,198,5.0,24.0,5.8
+Peanut Salad,Snack,veg,All,437,26.6,50.9,13.1
+Vegetable Soup,Snack,veg,All,357,22.2,37.3,11.3
+Vegetable Soup,Snack,veg,All,452,20.9,62.4,16.3
+Vegetable Soup,Snack,veg,All,132,9.7,17.3,3.0
+Vegetable Soup,Snack,veg,All,597,31.3,82.2,20.8
+Vegetable Soup,Snack,veg,All,105,7.6,13.1,2.9
+Boiled Egg Snack,Snack,non-veg,All,119,5.0,15.0,3.6
+Boiled Egg Snack,Snack,non-veg,All,461,22.1,59.8,15.9
+Boiled Egg Snack,Snack,non-veg,All,325,23.1,43.2,9.8
+Boiled Egg Snack,Snack,non-veg,All,178,8.2,18.7,4.4
+Boiled Egg Snack,Snack,non-veg,All,172,7.6,22.5,6.2
+Chicken Nuggets,Snack,non-veg,All,482,35.5,66.1,15.3
+Chicken Nuggets,Snack,non-veg,All,131,5.9,17.7,4.4
+Chicken Nuggets,Snack,non-veg,All,258,7.0,30.0,9.9
+Chicken Nuggets,Snack,non-veg,All,407,19.1,48.6,14.8
+Chicken Nuggets,Snack,non-veg,All,475,14.2,52.8,13.9
+Tuna Salad,Snack,non-veg,All,422,26.0,57.8,12.9
+Tuna Salad,Snack,non-veg,All,514,16.1,76.3,14.7
+Tuna Salad,Snack,non-veg,All,482,28.9,59.5,13.7
+Tuna Salad,Snack,non-veg,All,522,32.6,60.8,11.8
+Tuna Salad,Snack,non-veg,All,461,15.0,67.5,17.3
+Chapati & Dal,Dinner,veg,All,264,8.8,36.8,9.1
+Chapati & Dal,Dinner,veg,All,240,11.4,33.9,9.2
+Chapati & Dal,Dinner,veg,All,389,28.4,56.9,10.1
+Chapati & Dal,Dinner,veg,All,525,24.0,62.8,11.9
+Chapati & Dal,Dinner,veg,All,271,8.5,29.6,8.8
+Vegetable Soup,Dinner,veg,All,107,7.4,13.4,4.0
+Vegetable Soup,Dinner,veg,All,544,33.5,55.2,19.7
+Vegetable Soup,Dinner,veg,All,527,19.3,61.1,20.2
+Vegetable Soup,Dinner,veg,All,513,26.1,67.1,13.1
+Vegetable Soup,Dinner,veg,All,104,3.2,15.4,4.0
+Paneer Bhurji,Dinner,veg,All,378,10.2,40.2,11.6
+Paneer Bhurji,Dinner,veg,All,165,10.9,23.3,4.9
+Paneer Bhurji,Dinner,veg,All,343,17.1,34.8,10.5
+Paneer Bhurji,Dinner,veg,All,314,10.4,34.5,8.5
+Paneer Bhurji,Dinner,veg,All,506,17.6,71.8,15.8
+Khichdi,Dinner,veg,All,531,22.1,67.2,18.3
+Khichdi,Dinner,veg,All,293,14.3,33.6,8.2
+Khichdi,Dinner,veg,All,246,11.7,35.7,6.6
+Khichdi,Dinner,veg,All,194,9.0,28.1,4.9
+Khichdi,Dinner,veg,All,382,22.9,39.4,14.5
+Vegetable Curry,Dinner,veg,All,520,22.0,77.7,14.5
+Vegetable Curry,Dinner,veg,All,214,10.3,31.8,5.7
+Vegetable Curry,Dinner,veg,All,174,8.2,17.9,5.6
+Vegetable Curry,Dinner,veg,All,278,18.7,37.0,10.7
+Vegetable Curry,Dinner,veg,All,589,18.9,72.0,20.9
+Grilled Fish,Dinner,non-veg,All,457,15.8,51.8,16.1
+Grilled Fish,Dinner,non-veg,All,244,15.9,29.3,6.4
+Grilled Fish,Dinner,non-veg,All,549,40.3,67.6,17.1
+Grilled Fish,Dinner,non-veg,All,560,39.6,79.1,16.5
+Grilled Fish,Dinner,non-veg,All,308,12.9,37.3,10.8
+Chicken Curry,Dinner,non-veg,All,114,6.3,16.2,3.9
+Chicken Curry,Dinner,non-veg,All,135,6.2,15.9,4.4
+Chicken Curry,Dinner,non-veg,All,411,21.7,50.0,9.6
+Chicken Curry,Dinner,non-veg,All,481,16.8,71.2,16.0
+Chicken Curry,Dinner,non-veg,All,349,9.8,38.5,10.9
+Egg Bhurji,Dinner,non-veg,All,167,7.9,21.5,3.8
+Egg Bhurji,Dinner,non-veg,All,526,24.8,72.8,17.3
+Egg Bhurji,Dinner,non-veg,All,157,11.7,20.3,4.9
+Egg Bhurji,Dinner,non-veg,All,544,29.7,66.5,20.7
+Egg Bhurji,Dinner,non-veg,All,326,11.6,35.6,12.2
+Mutton Soup,Dinner,non-veg,All,186,9.9,19.4,6.1
+Mutton Soup,Dinner,non-veg,All,149,4.6,19.0,3.4
+Mutton Soup,Dinner,non-veg,All,279,16.5,34.2,9.5
+Mutton Soup,Dinner,non-veg,All,395,24.2,44.3,9.9
+Mutton Soup,Dinner,non-veg,All,382,20.3,57.1,9.3
