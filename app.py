@@ -4,33 +4,46 @@ from fastapi.responses import FileResponse
 import pandas as pd
 import random
 import os
+import re
 
-# 🔥 Semantic similarity (GPT-like logic)
+# Semantic similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-app = FastAPI(title="Religious Q&A Backend")
+app = FastAPI(title="Spiritual Assistant Backend")
 
 # ---------------- LOAD DATASET ----------------
+
 
 df = pd.read_csv("realistic_spiritual_riddles.csv")
 
 AUDIO_DIR = "audio"
 
-# ---------------- SEMANTIC SEARCH SETUP ----------------
-# Wisdom + context (NOT temple focused)
+# ---------------- TEXT CLEANING ----------------
+
+PLACE_WORDS = r"\b(temple|mandir|church|mosque|gurudwara|dargah|ashram|location|place)\b"
+
+def clean_text(text: str) -> str:
+    if not isinstance(text, str):
+        return ""
+    text = text.lower()
+    text = re.sub(PLACE_WORDS, "", text)
+    text = re.sub(r"[^a-zA-Z\s]", " ", text)
+    return text.strip()
+
+# ---------------- SMART CORPUS ----------------
 
 corpus = (
-    
-    df["answer"].fillna("") + " " +
-    df["hint"].fillna("") + " " +
-    df["religion"].fillna("")
+    df["answer"].apply(clean_text) + " " +
+    df["hint"].apply(clean_text)
 ).tolist()
 
 vectorizer = TfidfVectorizer(
     stop_words="english",
-    ngram_range=(1, 2)
+    ngram_range=(1, 2),
+    min_df=2
 )
+
 tfidf_matrix = vectorizer.fit_transform(corpus)
 
 # ---------------- REQUEST MODELS ----------------
@@ -54,60 +67,90 @@ class SubmitAnswerRequest(BaseModel):
 
 @app.get("/")
 def root():
-    return {"status": "Backend running successfully"}
+    return {"status": "Spiritual Assistant running successfully"}
 
-# ---------------- HELPER: RELIGION DETECTION ----------------
+# ---------------- RELIGION DETECTION ----------------
 
-def detect_religion_from_question(q: str):
+def detect_religion(q: str):
     q = q.lower()
-    if "hindu" in q:
+    if any(w in q for w in ["hindu", "ved", "gita", "krishna", "ram"]):
         return "hindu"
-    if "islam" in q or "muslim" in q:
+    if any(w in q for w in ["islam", "allah", "quran"]):
         return "islam"
-    if "christian" in q or "jesus" in q:
+    if any(w in q for w in ["christian", "jesus", "bible"]):
         return "christian"
     if "buddh" in q:
         return "buddhist"
     return None
 
-# ---------------- ASK QUESTION (SMART + DATASET ONLY) ----------------
+# ---------------- EMOTION DETECTION ----------------
+
+def detect_emotion(q: str):
+    emotions = {
+        "anxiety": ["anxiety", "anxious", "stress", "worried", "fear"],
+        "sadness": ["sad", "lonely", "depressed", "hopeless"],
+        "confusion": ["confused", "lost", "meaning", "purpose"]
+    }
+    for emotion, words in emotions.items():
+        if any(w in q.lower() for w in words):
+            return emotion
+    return None
+
+# ---------------- SPIRITUAL ASSISTANT ----------------
 
 @app.post("/ask")
 def ask_question(data: QuestionRequest):
-    user_q = data.question.lower()
+    raw_q = data.question
 
-    # Vectorize user question
+
+    user_q = clean_text(raw_q)
+
+
     user_vec = vectorizer.transform([user_q])
 
     similarities = cosine_similarity(user_vec, tfidf_matrix)[0]
 
-    # Base best match
+
     best_idx = similarities.argmax()
+
     best_score = similarities[best_idx]
 
-    # Religion-aware refinement
-    detected_religion = detect_religion_from_question(user_q)
-    if detected_religion:
-        religion_subset = df[
-            df["religion"].str.lower().str.contains(detected_religion, na=False)
-        ]
-        if not religion_subset.empty:
-            # recompute similarity inside religion subset
-            sub_corpus = (
-                religion_subset["answer"].fillna("") + " " +
-                religion_subset["hint"].fillna("")
-            ).tolist()
-            sub_matrix = vectorizer.transform(sub_corpus)
-            sub_sim = cosine_similarity(user_vec, sub_matrix)[0]
-            row = religion_subset.iloc[sub_sim.argmax()]
-        else:
-            row = df.iloc[best_idx]
-    else:
-        # generic semantic match
-        if best_score < 0.05:
-            row = df.sample(1).iloc[0]
-        else:
-            row = df.iloc[best_idx]
+    religion = detect_religion(raw_q)
+    emotion = detect_emotion(raw_q)
+
+    # ---------- LOW CONFIDENCE : DATASET-DRIVEN FALLBACK ----------
+    if best_score < 0.12:
+        emotion_keywords = {
+            "anxiety": ["peace", "mind", "fear", "attachment", "calm"],
+            "sadness": ["suffering", "hope", "compassion", "pain"],
+            "confusion": ["truth", "path", "wisdom", "self", "knowledge"]
+        }
+
+        if emotion and emotion in emotion_keywords:
+            mask = df["answer"].str.contains(
+                "|".join(emotion_keywords[emotion]),
+                case=False,
+                na=False
+            )
+            subset = df[mask]
+            if not subset.empty:
+                row = subset.sample(1).iloc[0]
+                return {
+                    "answer": row["answer"],
+                    "religion": religion,
+                    "difficulty": "reflection"
+                }
+
+        # ultimate fallback (still dataset based)
+        row = df.sample(1).iloc[0]
+        return {
+            "answer": row["answer"],
+            "religion": row.get("religion"),
+            "difficulty": "reflection"
+        }
+
+    # ---------- HIGH CONFIDENCE : NORMAL MATCH ----------
+    row = df.iloc[best_idx]
 
     return {
         "answer": row["answer"],
@@ -128,7 +171,7 @@ def generate_wisdom(data: WisdomRequest):
         return {
             "text": row["answer"],
             "religion": row.get("religion"),
-            "book": "Derived from authentic scriptures"
+            "book": "Derived from spiritual teachings"
         }
 
     row = subset.sample(1).iloc[0]
@@ -137,20 +180,14 @@ def generate_wisdom(data: WisdomRequest):
         text = row["answer"]
 
     elif data.content_type == "Short Story":
-
-        text = (
-
-            f"Reflection:\n{row['hint']}\n\n"
-            f"Wisdom:\n{row['answer']}"
-        )
-
-    else:  # Pathway
+        text = f"Reflection:\n{row['hint']}\n\nWisdom:\n{row['answer']}"
+    else:
         text = f"Spiritual Path:\n\n{row['answer']}"
 
     return {
         "text": text,
         "religion": data.religion,
-        "book": "Derived from authentic religious riddles"
+        "book": "Derived from spiritual riddles"
     }
 
 # ---------------- RIDDLE GAME ----------------
@@ -177,6 +214,7 @@ def submit_answer(data: SubmitAnswerRequest):
 
 @app.get("/music/{religion}")
 def list_music(religion: str):
+
     folder = os.path.join(AUDIO_DIR, religion)
 
     if not os.path.exists(folder):
@@ -187,6 +225,7 @@ def list_music(religion: str):
 
 @app.get("/play/{religion}/{song}")
 def play_music(religion: str, song: str):
+
     file_path = os.path.join(AUDIO_DIR, religion, song)
 
     if not os.path.exists(file_path):
